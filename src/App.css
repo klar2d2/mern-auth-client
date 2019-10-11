@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -10,7 +14,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,6 +25,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.red {
+  color: red;
+}
+
+nav {
+  background-color: lightGrey;
+  height: 5vh;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a,
+nav a:visited {
+  text-decoration: none;
+  font-size: 22px;
+  color: orange;
+}
+
+nav a:hover {
+  color: black;
 }
 
 @keyframes App-logo-spin {
